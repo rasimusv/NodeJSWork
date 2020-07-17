@@ -1,4 +1,3 @@
-import 'bootstrap';
 // используем библиотеку express
 const express = require('express');
 // создаем объект express

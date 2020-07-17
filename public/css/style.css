@@ -1,0 +1,18 @@
+.tatarstan-flag-backgound {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Tatarstan.svg/250px-Flag_of_Tatarstan.svg.png);
+	background-repeat: round;
+	height: 100px;
+}
+
+.eski-back {
+  background-image: url(https://img.artlebedev.ru/everything_files/images/4500/pattern_C_1.gif);
+  background-size: cover;
+}
+
+.blink {
+    animation: blink 1s infinite; /* Параметры анимации */
+   }
+   @keyframes blink {
+    from { opacity: 1; /* Непрозрачный текст */ }
+    to { opacity: 0; /* Прозрачный текст */ }
+   }
