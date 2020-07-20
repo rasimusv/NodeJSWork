@@ -1,9 +1,8 @@
-// используем библиотеку express
 const express = require('express');
 const bodyParser = require('body-parser');
-// создаем объект express
+const fs = require("fs");
 const app = express();
-// говорим, что мы раздаем папку public
+
 app.use(bodyParser.urlencoded({ extended: true }));
 require('./app/routes')(app);
 app.use(express.static('public'));
